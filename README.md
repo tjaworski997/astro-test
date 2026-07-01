@@ -32,3 +32,5 @@ Podstawowy workflow:
 1. Lokalnie rozwijasz przez `npm run dev`.
 2. Build sprawdzasz przez `npm run build`.
 3. W Cloudflare importujesz repozytorium i deployujesz aplikacje.
+
+Po buildzie skrypt dopisuje `dist/.assetsignore`, zeby Cloudflare nie wystawial katalogu `_worker.js` jako publicznych assetow.
