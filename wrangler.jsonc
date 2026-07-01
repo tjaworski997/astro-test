@@ -1,0 +1,21 @@
+{
+  "main": "dist/_worker.js/index.js",
+  "name": "astro-test",
+  "compatibility_date": "2026-07-01",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "SESSION"
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
